@@ -1,0 +1,24 @@
+{
+  "name": "oshan-mendis-ict",
+  "version": "1.0.0",
+  "description": "A bilingual React/Vite and Express/MongoDB learning platform for A/L ICT students. Student registration, admin management, batch enrollments, manual payment verification, protected PDF downloads, class schedules, announcements, and learning progress use the same MongoDB records.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently -k -n server,client \"npm run dev --prefix server\" \"npm run dev --prefix client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishankalindu/Oshan-mendis-ICT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ishankalindu/Oshan-mendis-ICT/issues"
+  },
+  "homepage": "https://github.com/ishankalindu/Oshan-mendis-ICT#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.6"
+  }
+}
