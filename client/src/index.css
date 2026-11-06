@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@theme {
+  --color-brand: #4266d5;
+  --color-brand-dark: #3453b6;
+  --color-accent: #27a89a;
+}
+#root{min-height:100vh}::selection{background:#5268dd;color:white}
